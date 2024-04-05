@@ -1,0 +1,131 @@
+.navbar {
+    background-color: rgb(30, 30, 30);
+    height: 6.5rem !important;
+    width: 100vw !important;
+    max-width: 95rem;
+    margin: 0 auto;
+    padding: 2rem 2rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo{
+ object-fit: cover;
+ height: 4rem;
+ width: 4rem;
+ border-radius: 50%;
+}
+
+.desktopMenuListItem {
+    margin: 1rem !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+.desktopMenuListItem:hover{
+    transition: 300ms;
+    font-size: 1.1rem;
+    color: aqua;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid aqua;
+    font-size: 600;
+}
+
+.desktopMenuBtn {
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+.desktopMenuBtn:hover {
+    background-color: lightblue;
+    font-weight: 600;
+    padding: 0 0.95rem;
+}
+
+.desktopMenuImg{
+    object-fit: cover !important;
+    height: 1rem !important;
+    width: 1rem !important;
+    margin: 1rem !important;
+    transform: scale(2) !important;
+}
+
+.active {
+    color: aqua;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid aqua;
+    font-size: 1.1rem;
+    transition: 300ms;
+}
+
+.mobMenu{
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.mobMenu:hover{
+   opacity: 1;
+}
+
+.listItem:hover{
+    transition: 300ms;
+    color: aqua;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid aqua;
+    font-size: 1.1rem;
+    transition-timing-function: ease-in-out;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(45, 45, 45);
+    border-radius: 1rem;
+}
+
+.listItem {
+    color: antiquewhite;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+@media(max-width:720px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+    .logo {
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+}

@@ -1,0 +1,174 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.skillDesc{
+    font-weight: 200;
+    font-size: 1.1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(45, 45, 45);
+    justify-content: center;
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 2rem;
+    border-radius: 20%;
+}
+
+.skillBar-img{
+    object-fit: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+
+.skillBarText p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card-details {
+    display: flex;
+}
+
+.skillDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 80rem;
+    margin-left: -10rem;
+
+}
+
+.card-extra{
+    border-radius: 30px;
+    margin: 1rem;
+    margin-top: 2rem;
+    /* height: 20rem; */
+    width: 20rem ;
+    background-color: rgb(49, 49, 51);
+    color: white;
+    border: 3px solid white;
+    height: 17.7rem;
+}
+
+.card-text-details {
+    font-size: 18px;
+    border: 2px solid white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(37, 36, 36);
+}
+
+.card-extra-details hr{
+    border-top: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 19px;
+}
+
+.card-extra-details h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media(max-width:720px){
+    .skillBarText p{
+        font-size: 2vw;
+    }
+}
+
+@media(max-width:480px){
+    .skillBarText p{
+        font-size: 0.85rem;
+    }
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillBar-img {
+        height: 2.25rem;
+        width: 2.25rem;
+        margin-right: 0.5rem;
+    }
+    .skillBarText h2{
+        font-size: 5vw;
+    }
+    #skills{
+        margin-top: -5rem;
+    }
+    .skillTitle{
+        margin-bottom: -1.5rem;
+        padding-top: 1.8rem;
+        font-size: 2.5rem;
+    }
+    .skillBar{
+        width: 21rem;
+        margin-left: -0.55rem;
+        padding: 1rem 1rem;
+        height: 14rem;
+    }
+    .skillDetails {
+        margin-left: -2.5rem;
+    }
+    .card-extra{
+        margin: 0.5rem;
+        margin-top: 1rem;
+        height: 15.9rem;
+    }
+    .card-extra-details hr{
+        margin-bottom: 1rem;
+    }
+    .card-extra-details h3 {
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+}
+
