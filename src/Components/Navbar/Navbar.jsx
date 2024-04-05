@@ -10,7 +10,7 @@ const Navbar = () => {
 const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <nav className="navbar">
+        <nav className="navbar navbar-extradetails">
             <img src={logo} alt="Logo" className="logo"></img>
             <div className="desktopMenu">
                  <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>

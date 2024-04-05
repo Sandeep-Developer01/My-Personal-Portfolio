@@ -129,3 +129,14 @@
         width: 3.2rem;
     }
 }
+
+@media(max-width:480px) {
+   .navbar{
+    height: 4.5rem !important;
+    padding: 0.9rem 2rem !important;
+   }
+   .logo{
+    height: 3rem;
+    width: 3rem;
+   }
+}

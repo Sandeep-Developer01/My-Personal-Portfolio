@@ -13,7 +13,10 @@
     "@emailjs/browser": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scroll": "^1.9.0"
+    "react-error-overlay": "^6.0.9",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.0",
+    "vite-plugin-env-compatible": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",

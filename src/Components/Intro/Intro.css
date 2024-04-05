@@ -86,7 +86,7 @@
     .bg{
         opacity: 0.3;
         border-radius: 0;
-        right: 0.35rem;
+        right: 0.45rem;
         top: 0.5rem;
     }
     .introText {
@@ -96,5 +96,5 @@
     .introPara{
         font-size: 0.95rem;
         margin-bottom: 10px;
-    }
+    }       
 }

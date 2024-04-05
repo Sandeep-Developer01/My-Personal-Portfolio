@@ -11,8 +11,8 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_5s5ntco', 'template_xwpsejb', form.current, {
-            publicKey: 'SreBNIvsOGJNESeEO',
+          .sendForm(import.meta.env.REACT_APP_SERVICE_ID, import.meta.env.REACT_APP_TEMPLATE_ID, form.current, {
+            publicKey: import.meta.env.REACT_APP_PUBLIC_KEY,
           })
           .then(
             () => {
@@ -40,9 +40,9 @@ const Contact = () => {
                     <h1 className="contactPageTitle">Contact Me</h1>
                     <span className="contactDesc">Please fill out the form below to discuss any work opportunities</span>
                     <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                        <input type="text" className="name" placeholder="Your Name" name="from_name"></input>
-                        <input type="email" className="email" placeholder="Your Email" name="from_email"></input>
-                         <textarea className="msg" name="message" placeholder="Your Message"></textarea>
+                        <input type="text" className="name" placeholder="Your Name" name="from_name" required></input>
+                        <input type="email" className="email" placeholder="Your Email" name="from_email" required></input>
+                         <textarea className="msg" name="message" placeholder="Your Message" required></textarea>
                          <button type="submit" value="Send" className="submitBtn">Submit</button>
                      <div className="links">
                         <a href="https://www.linkedin.com/in/sandeep-saini-5bb993298/" target="_blank"><img src={LinkedInIcon} className="link"></img></a>
