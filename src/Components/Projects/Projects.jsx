@@ -24,13 +24,13 @@ const Projects = () => {
                         <p className="card-text">EJS, Javascript, HTML, CSS, MongoDB, Passport, Bootstrap, Express</p>
                     </div>
                 </div></a>
-                <div className="card card-styling" style={{width: "18rem", borderRadius: "20px"}}>
+                <a href="https://github.com/Sandeep-Developer01/StyleSphere-Ecommerce" target="_blank"><div className="card card-styling" style={{width: "18rem", borderRadius: "20px"}}>
                     <img src={Ecommerce} className="projectImg card-img-top"/>
                     <div className="card-body card-extra-feature">
                         <h5 className="card-title">E-Commerce Website -<h6>Style Sphere</h6></h5>
                         <p className="card-text">&nbsp;React, CSS, MongoDB, Express, NodeJs <br></br>&nbsp;</p>
                     </div>
-                </div>
+                </div></a>
                 <div className="card card-styling" style={{width: "18rem", borderRadius: "20px"}}>
                     <img src={Connectify} className="projectImg card-img-top"/>
                     <div className="card-body card-extra-feature">
